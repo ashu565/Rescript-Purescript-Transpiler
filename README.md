@@ -5,6 +5,8 @@ Analysis of Rescript ParseTree
 
 `/cst_viewer` - Rescript Compiler parts for generating rescript parsetree, pretty print, toJSON and fromJSON instances.
 
+`/rust_transpiler` - Contains Purescript Types and Rescript parse tree Types in Rust along with there toJSON, fromJSON instances. 
+
 ## Development
 
 #### **Entering nix development environment (nix shell)**
