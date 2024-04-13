@@ -7,6 +7,8 @@ Analysis of Rescript ParseTree
 
 `/rust_transpiler` - Contains Purescript Types and Rescript parse tree Types in Rust along with there toJSON, fromJSON instances. 
 
+`/ps_lib and /rs_check` - Tried using the purescript (ps_lib) functions and types to use in rescript (rs_check) using `purescript-tsd-gen` and `ts2ocaml` packages.
+
 ## Development
 
 #### **Entering nix development environment (nix shell)**
