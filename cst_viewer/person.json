@@ -1,0 +1,19 @@
+[
+    {
+        "tag": "Loc",
+        "contents": [
+            {
+                "txt": "Hello",
+                "loc": {
+                    "tag": "Location",
+                    "contents": {
+                        "locStart": "Test",
+                        "locEnd": "Test2",
+                        "locGhost": false
+                    }
+                }
+            }
+        ]
+    },
+    "Test3"
+]

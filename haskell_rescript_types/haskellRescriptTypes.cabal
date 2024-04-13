@@ -1,0 +1,38 @@
+cabal-version:      3.6
+name:               haskellRescriptTypes
+version:            0.1.0.0
+
+-- A short (one-line) description of the package.
+-- synopsis:
+
+-- A longer description of the package.
+-- description:
+
+-- A URL where users can report bugs.
+-- bug-reports:
+license:            NONE
+author:             Soham kapileshwar
+maintainer:         sohamkapileshwar2@gmail.com
+
+-- A copyright notice.
+-- copyright:
+-- category:
+extra-source-files: CHANGELOG.md
+
+executable haskellRescriptTypes
+    main-is: Main.hs
+
+    -- Modules included in this executable, other than Main.
+    other-modules:
+        RescriptParsetree
+
+    -- LANGUAGE extensions used by modules in this package.
+    -- other-extensions:
+    build-depends:
+        base,
+        haskell-say,
+        aeson ^>=2.2,
+        text ^>=2.1,
+        bytestring ^>=0.12
+    hs-source-dirs: app
+    default-language: Haskell2010

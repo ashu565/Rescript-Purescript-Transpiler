@@ -1,0 +1,2566 @@
+[{
+    "tag": "StructureItem",
+    "pstrDesc": {
+        "tag": "PstrModule",
+        "contents": {
+            "tag": "ModuleBinding",
+            "pmbName": {
+                "tag": "Loc",
+                "txt": "Counter",
+                "loc": {
+                    "tag": "Location",
+                    "locStart": {
+                        "tag": "Position",
+                        "posFname": "sample_rescript.res",
+                        "posLnum": 4,
+                        "posBol": 49,
+                        "posCnum": 56
+                    },
+                    "locEnd": {
+                        "tag": "Position",
+                        "posFname": "sample_rescript.res",
+                        "posLnum": 4,
+                        "posBol": 49,
+                        "posCnum": 56
+                    },
+                    "locGhost": false
+                }
+            },
+            "pmbExpr": {
+                "tag": "ModuleExpr",
+                "pmodDesc": {
+                    "tag": "PmodStructure",
+                    "contents": [{
+                        "tag": "StructureItem",
+                        "pstrDesc": {
+                            "tag": "PstrValue",
+                            "contents": [{
+                                    "tag": "Nonrecursive"
+                                },
+                                [{
+                                    "tag": "ValueBinding",
+                                    "pvbPat": {
+                                        "tag": "Pattern",
+                                        "ppatDesc": {
+                                            "tag": "PpatVar",
+                                            "contents": {
+                                                "tag": "Loc",
+                                                "txt": "counter",
+                                                "loc": {
+                                                    "tag": "Location",
+                                                    "locStart": {
+                                                        "tag": "Position",
+                                                        "posFname": "sample_rescript.res",
+                                                        "posLnum": 6,
+                                                        "posBol": 110,
+                                                        "posCnum": 116
+                                                    },
+                                                    "locEnd": {
+                                                        "tag": "Position",
+                                                        "posFname": "sample_rescript.res",
+                                                        "posLnum": 6,
+                                                        "posBol": 110,
+                                                        "posCnum": 116
+                                                    },
+                                                    "locGhost": false
+                                                }
+                                            }
+                                        },
+                                        "ppatLoc": {
+                                            "tag": "Location",
+                                            "locStart": {
+                                                "tag": "Position",
+                                                "posFname": "sample_rescript.res",
+                                                "posLnum": 6,
+                                                "posBol": 110,
+                                                "posCnum": 116
+                                            },
+                                            "locEnd": {
+                                                "tag": "Position",
+                                                "posFname": "sample_rescript.res",
+                                                "posLnum": 6,
+                                                "posBol": 110,
+                                                "posCnum": 116
+                                            },
+                                            "locGhost": false
+                                        },
+                                        "ppatAttributes": []
+                                    },
+                                    "pvbExpr": {
+                                        "tag": "Expression",
+                                        "pexpDesc": {
+                                            "tag": "PexpApply",
+                                            "contents": [{
+                                                    "tag": "Expression",
+                                                    "pexpDesc": {
+                                                        "tag": "PexpIdent",
+                                                        "contents": {
+                                                            "tag": "Loc",
+                                                            "txt": {
+                                                                "tag": "Lident",
+                                                                "contents": "ref"
+                                                            },
+                                                            "loc": {
+                                                                "tag": "Location",
+                                                                "locStart": {
+                                                                    "tag": "Position",
+                                                                    "posFname": "sample_rescript.res",
+                                                                    "posLnum": 6,
+                                                                    "posBol": 110,
+                                                                    "posCnum": 126
+                                                                },
+                                                                "locEnd": {
+                                                                    "tag": "Position",
+                                                                    "posFname": "sample_rescript.res",
+                                                                    "posLnum": 6,
+                                                                    "posBol": 110,
+                                                                    "posCnum": 126
+                                                                },
+                                                                "locGhost": false
+                                                            }
+                                                        }
+                                                    },
+                                                    "pexpLoc": {
+                                                        "tag": "Location",
+                                                        "locStart": {
+                                                            "tag": "Position",
+                                                            "posFname": "sample_rescript.res",
+                                                            "posLnum": 6,
+                                                            "posBol": 110,
+                                                            "posCnum": 126
+                                                        },
+                                                        "locEnd": {
+                                                            "tag": "Position",
+                                                            "posFname": "sample_rescript.res",
+                                                            "posLnum": 6,
+                                                            "posBol": 110,
+                                                            "posCnum": 126
+                                                        },
+                                                        "locGhost": false
+                                                    },
+                                                    "pexpAttributes": []
+                                                },
+                                                [
+                                                    [{
+                                                        "tag": "Nolabel"
+                                                    }, {
+                                                        "tag": "Expression",
+                                                        "pexpDesc": {
+                                                            "tag": "PexpConstant",
+                                                            "contents": {
+                                                                "tag": "PconstInteger",
+                                                                "contents": ["0", null]
+                                                            }
+                                                        },
+                                                        "pexpLoc": {
+                                                            "tag": "Location",
+                                                            "locStart": {
+                                                                "tag": "Position",
+                                                                "posFname": "sample_rescript.res",
+                                                                "posLnum": 6,
+                                                                "posBol": 110,
+                                                                "posCnum": 130
+                                                            },
+                                                            "locEnd": {
+                                                                "tag": "Position",
+                                                                "posFname": "sample_rescript.res",
+                                                                "posLnum": 6,
+                                                                "posBol": 110,
+                                                                "posCnum": 130
+                                                            },
+                                                            "locGhost": false
+                                                        },
+                                                        "pexpAttributes": []
+                                                    }]
+                                                ]
+                                            ]
+                                        },
+                                        "pexpLoc": {
+                                            "tag": "Location",
+                                            "locStart": {
+                                                "tag": "Position",
+                                                "posFname": "sample_rescript.res",
+                                                "posLnum": 6,
+                                                "posBol": 110,
+                                                "posCnum": 126
+                                            },
+                                            "locEnd": {
+                                                "tag": "Position",
+                                                "posFname": "sample_rescript.res",
+                                                "posLnum": 6,
+                                                "posBol": 110,
+                                                "posCnum": 126
+                                            },
+                                            "locGhost": false
+                                        },
+                                        "pexpAttributes": []
+                                    },
+                                    "pvbAttributes": [],
+                                    "pvbLoc": {
+                                        "tag": "Location",
+                                        "locStart": {
+                                            "tag": "Position",
+                                            "posFname": "sample_rescript.res",
+                                            "posLnum": 6,
+                                            "posBol": 110,
+                                            "posCnum": 112
+                                        },
+                                        "locEnd": {
+                                            "tag": "Position",
+                                            "posFname": "sample_rescript.res",
+                                            "posLnum": 6,
+                                            "posBol": 110,
+                                            "posCnum": 112
+                                        },
+                                        "locGhost": false
+                                    }
+                                }]
+                            ]
+                        },
+                        "pstrLoc": {
+                            "tag": "Location",
+                            "locStart": {
+                                "tag": "Position",
+                                "posFname": "sample_rescript.res",
+                                "posLnum": 6,
+                                "posBol": 110,
+                                "posCnum": 112
+                            },
+                            "locEnd": {
+                                "tag": "Position",
+                                "posFname": "sample_rescript.res",
+                                "posLnum": 6,
+                                "posBol": 110,
+                                "posCnum": 112
+                            },
+                            "locGhost": false
+                        }
+                    }, {
+                        "tag": "StructureItem",
+                        "pstrDesc": {
+                            "tag": "PstrValue",
+                            "contents": [{
+                                    "tag": "Nonrecursive"
+                                },
+                                [{
+                                    "tag": "ValueBinding",
+                                    "pvbPat": {
+                                        "tag": "Pattern",
+                                        "ppatDesc": {
+                                            "tag": "PpatVar",
+                                            "contents": {
+                                                "tag": "Loc",
+                                                "txt": "increment",
+                                                "loc": {
+                                                    "tag": "Location",
+                                                    "locStart": {
+                                                        "tag": "Position",
+                                                        "posFname": "sample_rescript.res",
+                                                        "posLnum": 9,
+                                                        "posBol": 176,
+                                                        "posCnum": 182
+                                                    },
+                                                    "locEnd": {
+                                                        "tag": "Position",
+                                                        "posFname": "sample_rescript.res",
+                                                        "posLnum": 9,
+                                                        "posBol": 176,
+                                                        "posCnum": 182
+                                                    },
+                                                    "locGhost": false
+                                                }
+                                            }
+                                        },
+                                        "ppatLoc": {
+                                            "tag": "Location",
+                                            "locStart": {
+                                                "tag": "Position",
+                                                "posFname": "sample_rescript.res",
+                                                "posLnum": 9,
+                                                "posBol": 176,
+                                                "posCnum": 182
+                                            },
+                                            "locEnd": {
+                                                "tag": "Position",
+                                                "posFname": "sample_rescript.res",
+                                                "posLnum": 9,
+                                                "posBol": 176,
+                                                "posCnum": 182
+                                            },
+                                            "locGhost": false
+                                        },
+                                        "ppatAttributes": []
+                                    },
+                                    "pvbExpr": {
+                                        "tag": "Expression",
+                                        "pexpDesc": {
+                                            "tag": "PexpFun",
+                                            "contents": [{
+                                                "tag": "Nolabel"
+                                            }, null, {
+                                                "tag": "Pattern",
+                                                "ppatDesc": {
+                                                    "tag": "PpatConstruct",
+                                                    "contents": [{
+                                                        "tag": "Loc",
+                                                        "txt": {
+                                                            "tag": "Lident",
+                                                            "contents": "()"
+                                                        },
+                                                        "loc": {
+                                                            "tag": "Location",
+                                                            "locStart": {
+                                                                "tag": "Position",
+                                                                "posFname": "sample_rescript.res",
+                                                                "posLnum": 9,
+                                                                "posBol": 176,
+                                                                "posCnum": 194
+                                                            },
+                                                            "locEnd": {
+                                                                "tag": "Position",
+                                                                "posFname": "sample_rescript.res",
+                                                                "posLnum": 9,
+                                                                "posBol": 176,
+                                                                "posCnum": 194
+                                                            },
+                                                            "locGhost": false
+                                                        }
+                                                    }, null]
+                                                },
+                                                "ppatLoc": {
+                                                    "tag": "Location",
+                                                    "locStart": {
+                                                        "tag": "Position",
+                                                        "posFname": "sample_rescript.res",
+                                                        "posLnum": 9,
+                                                        "posBol": 176,
+                                                        "posCnum": 194
+                                                    },
+                                                    "locEnd": {
+                                                        "tag": "Position",
+                                                        "posFname": "sample_rescript.res",
+                                                        "posLnum": 9,
+                                                        "posBol": 176,
+                                                        "posCnum": 194
+                                                    },
+                                                    "locGhost": false
+                                                },
+                                                "ppatAttributes": []
+                                            }, {
+                                                "tag": "Expression",
+                                                "pexpDesc": {
+                                                    "tag": "PexpApply",
+                                                    "contents": [{
+                                                            "tag": "Expression",
+                                                            "pexpDesc": {
+                                                                "tag": "PexpIdent",
+                                                                "contents": {
+                                                                    "tag": "Loc",
+                                                                    "txt": {
+                                                                        "tag": "Lident",
+                                                                        "contents": ":="
+                                                                    },
+                                                                    "loc": {
+                                                                        "tag": "Location",
+                                                                        "locStart": {
+                                                                            "tag": "Position",
+                                                                            "posFname": "sample_rescript.res",
+                                                                            "posLnum": 10,
+                                                                            "posBol": 202,
+                                                                            "posCnum": 214
+                                                                        },
+                                                                        "locEnd": {
+                                                                            "tag": "Position",
+                                                                            "posFname": "sample_rescript.res",
+                                                                            "posLnum": 10,
+                                                                            "posBol": 202,
+                                                                            "posCnum": 214
+                                                                        },
+                                                                        "locGhost": false
+                                                                    }
+                                                                }
+                                                            },
+                                                            "pexpLoc": {
+                                                                "tag": "Location",
+                                                                "locStart": {
+                                                                    "tag": "Position",
+                                                                    "posFname": "sample_rescript.res",
+                                                                    "posLnum": 10,
+                                                                    "posBol": 202,
+                                                                    "posCnum": 214
+                                                                },
+                                                                "locEnd": {
+                                                                    "tag": "Position",
+                                                                    "posFname": "sample_rescript.res",
+                                                                    "posLnum": 10,
+                                                                    "posBol": 202,
+                                                                    "posCnum": 214
+                                                                },
+                                                                "locGhost": false
+                                                            },
+                                                            "pexpAttributes": []
+                                                        },
+                                                        [
+                                                            [{
+                                                                "tag": "Nolabel"
+                                                            }, {
+                                                                "tag": "Expression",
+                                                                "pexpDesc": {
+                                                                    "tag": "PexpIdent",
+                                                                    "contents": {
+                                                                        "tag": "Loc",
+                                                                        "txt": {
+                                                                            "tag": "Lident",
+                                                                            "contents": "counter"
+                                                                        },
+                                                                        "loc": {
+                                                                            "tag": "Location",
+                                                                            "locStart": {
+                                                                                "tag": "Position",
+                                                                                "posFname": "sample_rescript.res",
+                                                                                "posLnum": 10,
+                                                                                "posBol": 202,
+                                                                                "posCnum": 206
+                                                                            },
+                                                                            "locEnd": {
+                                                                                "tag": "Position",
+                                                                                "posFname": "sample_rescript.res",
+                                                                                "posLnum": 10,
+                                                                                "posBol": 202,
+                                                                                "posCnum": 206
+                                                                            },
+                                                                            "locGhost": false
+                                                                        }
+                                                                    }
+                                                                },
+                                                                "pexpLoc": {
+                                                                    "tag": "Location",
+                                                                    "locStart": {
+                                                                        "tag": "Position",
+                                                                        "posFname": "sample_rescript.res",
+                                                                        "posLnum": 10,
+                                                                        "posBol": 202,
+                                                                        "posCnum": 206
+                                                                    },
+                                                                    "locEnd": {
+                                                                        "tag": "Position",
+                                                                        "posFname": "sample_rescript.res",
+                                                                        "posLnum": 10,
+                                                                        "posBol": 202,
+                                                                        "posCnum": 206
+                                                                    },
+                                                                    "locGhost": false
+                                                                },
+                                                                "pexpAttributes": []
+                                                            }],
+                                                            [{
+                                                                "tag": "Nolabel"
+                                                            }, {
+                                                                "tag": "Expression",
+                                                                "pexpDesc": {
+                                                                    "tag": "PexpApply",
+                                                                    "contents": [{
+                                                                            "tag": "Expression",
+                                                                            "pexpDesc": {
+                                                                                "tag": "PexpIdent",
+                                                                                "contents": {
+                                                                                    "tag": "Loc",
+                                                                                    "txt": {
+                                                                                        "tag": "Lident",
+                                                                                        "contents": "+"
+                                                                                    },
+                                                                                    "loc": {
+                                                                                        "tag": "Location",
+                                                                                        "locStart": {
+                                                                                            "tag": "Position",
+                                                                                            "posFname": "sample_rescript.res",
+                                                                                            "posLnum": 10,
+                                                                                            "posBol": 202,
+                                                                                            "posCnum": 225
+                                                                                        },
+                                                                                        "locEnd": {
+                                                                                            "tag": "Position",
+                                                                                            "posFname": "sample_rescript.res",
+                                                                                            "posLnum": 10,
+                                                                                            "posBol": 202,
+                                                                                            "posCnum": 225
+                                                                                        },
+                                                                                        "locGhost": false
+                                                                                    }
+                                                                                }
+                                                                            },
+                                                                            "pexpLoc": {
+                                                                                "tag": "Location",
+                                                                                "locStart": {
+                                                                                    "tag": "Position",
+                                                                                    "posFname": "sample_rescript.res",
+                                                                                    "posLnum": 10,
+                                                                                    "posBol": 202,
+                                                                                    "posCnum": 225
+                                                                                },
+                                                                                "locEnd": {
+                                                                                    "tag": "Position",
+                                                                                    "posFname": "sample_rescript.res",
+                                                                                    "posLnum": 10,
+                                                                                    "posBol": 202,
+                                                                                    "posCnum": 225
+                                                                                },
+                                                                                "locGhost": false
+                                                                            },
+                                                                            "pexpAttributes": []
+                                                                        },
+                                                                        [
+                                                                            [{
+                                                                                "tag": "Nolabel"
+                                                                            }, {
+                                                                                "tag": "Expression",
+                                                                                "pexpDesc": {
+                                                                                    "tag": "PexpIdent",
+                                                                                    "contents": {
+                                                                                        "tag": "Loc",
+                                                                                        "txt": {
+                                                                                            "tag": "Lident",
+                                                                                            "contents": "counter"
+                                                                                        },
+                                                                                        "loc": {
+                                                                                            "tag": "Location",
+                                                                                            "locStart": {
+                                                                                                "tag": "Position",
+                                                                                                "posFname": "sample_rescript.res",
+                                                                                                "posLnum": 10,
+                                                                                                "posBol": 202,
+                                                                                                "posCnum": 217
+                                                                                            },
+                                                                                            "locEnd": {
+                                                                                                "tag": "Position",
+                                                                                                "posFname": "sample_rescript.res",
+                                                                                                "posLnum": 10,
+                                                                                                "posBol": 202,
+                                                                                                "posCnum": 217
+                                                                                            },
+                                                                                            "locGhost": false
+                                                                                        }
+                                                                                    }
+                                                                                },
+                                                                                "pexpLoc": {
+                                                                                    "tag": "Location",
+                                                                                    "locStart": {
+                                                                                        "tag": "Position",
+                                                                                        "posFname": "sample_rescript.res",
+                                                                                        "posLnum": 10,
+                                                                                        "posBol": 202,
+                                                                                        "posCnum": 217
+                                                                                    },
+                                                                                    "locEnd": {
+                                                                                        "tag": "Position",
+                                                                                        "posFname": "sample_rescript.res",
+                                                                                        "posLnum": 10,
+                                                                                        "posBol": 202,
+                                                                                        "posCnum": 217
+                                                                                    },
+                                                                                    "locGhost": false
+                                                                                },
+                                                                                "pexpAttributes": []
+                                                                            }],
+                                                                            [{
+                                                                                "tag": "Nolabel"
+                                                                            }, {
+                                                                                "tag": "Expression",
+                                                                                "pexpDesc": {
+                                                                                    "tag": "PexpConstant",
+                                                                                    "contents": {
+                                                                                        "tag": "PconstInteger",
+                                                                                        "contents": ["1", null]
+                                                                                    }
+                                                                                },
+                                                                                "pexpLoc": {
+                                                                                    "tag": "Location",
+                                                                                    "locStart": {
+                                                                                        "tag": "Position",
+                                                                                        "posFname": "sample_rescript.res",
+                                                                                        "posLnum": 10,
+                                                                                        "posBol": 202,
+                                                                                        "posCnum": 227
+                                                                                    },
+                                                                                    "locEnd": {
+                                                                                        "tag": "Position",
+                                                                                        "posFname": "sample_rescript.res",
+                                                                                        "posLnum": 10,
+                                                                                        "posBol": 202,
+                                                                                        "posCnum": 227
+                                                                                    },
+                                                                                    "locGhost": false
+                                                                                },
+                                                                                "pexpAttributes": []
+                                                                            }]
+                                                                        ]
+                                                                    ]
+                                                                },
+                                                                "pexpLoc": {
+                                                                    "tag": "Location",
+                                                                    "locStart": {
+                                                                        "tag": "Position",
+                                                                        "posFname": "sample_rescript.res",
+                                                                        "posLnum": 10,
+                                                                        "posBol": 202,
+                                                                        "posCnum": 217
+                                                                    },
+                                                                    "locEnd": {
+                                                                        "tag": "Position",
+                                                                        "posFname": "sample_rescript.res",
+                                                                        "posLnum": 10,
+                                                                        "posBol": 202,
+                                                                        "posCnum": 217
+                                                                    },
+                                                                    "locGhost": false
+                                                                },
+                                                                "pexpAttributes": []
+                                                            }]
+                                                        ]
+                                                    ]
+                                                },
+                                                "pexpLoc": {
+                                                    "tag": "Location",
+                                                    "locStart": {
+                                                        "tag": "Position",
+                                                        "posFname": "sample_rescript.res",
+                                                        "posLnum": 10,
+                                                        "posBol": 202,
+                                                        "posCnum": 206
+                                                    },
+                                                    "locEnd": {
+                                                        "tag": "Position",
+                                                        "posFname": "sample_rescript.res",
+                                                        "posLnum": 10,
+                                                        "posBol": 202,
+                                                        "posCnum": 206
+                                                    },
+                                                    "locGhost": false
+                                                },
+                                                "pexpAttributes": [
+                                                    [{
+                                                        "tag": "Loc",
+                                                        "txt": "res.braces",
+                                                        "loc": {
+                                                            "tag": "Location",
+                                                            "locStart": {
+                                                                "tag": "Position",
+                                                                "posFname": "sample_rescript.res",
+                                                                "posLnum": 9,
+                                                                "posBol": 176,
+                                                                "posCnum": 200
+                                                            },
+                                                            "locEnd": {
+                                                                "tag": "Position",
+                                                                "posFname": "sample_rescript.res",
+                                                                "posLnum": 9,
+                                                                "posBol": 176,
+                                                                "posCnum": 200
+                                                            },
+                                                            "locGhost": false
+                                                        }
+                                                    }, {
+                                                        "tag": "PStr",
+                                                        "contents": []
+                                                    }]
+                                                ]
+                                            }]
+                                        },
+                                        "pexpLoc": {
+                                            "tag": "Location",
+                                            "locStart": {
+                                                "tag": "Position",
+                                                "posFname": "sample_rescript.res",
+                                                "posLnum": 9,
+                                                "posBol": 176,
+                                                "posCnum": 194
+                                            },
+                                            "locEnd": {
+                                                "tag": "Position",
+                                                "posFname": "sample_rescript.res",
+                                                "posLnum": 9,
+                                                "posBol": 176,
+                                                "posCnum": 194
+                                            },
+                                            "locGhost": false
+                                        },
+                                        "pexpAttributes": []
+                                    },
+                                    "pvbAttributes": [],
+                                    "pvbLoc": {
+                                        "tag": "Location",
+                                        "locStart": {
+                                            "tag": "Position",
+                                            "posFname": "sample_rescript.res",
+                                            "posLnum": 9,
+                                            "posBol": 176,
+                                            "posCnum": 178
+                                        },
+                                        "locEnd": {
+                                            "tag": "Position",
+                                            "posFname": "sample_rescript.res",
+                                            "posLnum": 9,
+                                            "posBol": 176,
+                                            "posCnum": 178
+                                        },
+                                        "locGhost": false
+                                    }
+                                }]
+                            ]
+                        },
+                        "pstrLoc": {
+                            "tag": "Location",
+                            "locStart": {
+                                "tag": "Position",
+                                "posFname": "sample_rescript.res",
+                                "posLnum": 9,
+                                "posBol": 176,
+                                "posCnum": 178
+                            },
+                            "locEnd": {
+                                "tag": "Position",
+                                "posFname": "sample_rescript.res",
+                                "posLnum": 9,
+                                "posBol": 176,
+                                "posCnum": 178
+                            },
+                            "locGhost": false
+                        }
+                    }, {
+                        "tag": "StructureItem",
+                        "pstrDesc": {
+                            "tag": "PstrValue",
+                            "contents": [{
+                                    "tag": "Nonrecursive"
+                                },
+                                [{
+                                    "tag": "ValueBinding",
+                                    "pvbPat": {
+                                        "tag": "Pattern",
+                                        "ppatDesc": {
+                                            "tag": "PpatVar",
+                                            "contents": {
+                                                "tag": "Loc",
+                                                "txt": "decrement",
+                                                "loc": {
+                                                    "tag": "Location",
+                                                    "locStart": {
+                                                        "tag": "Position",
+                                                        "posFname": "sample_rescript.res",
+                                                        "posLnum": 14,
+                                                        "posBol": 276,
+                                                        "posCnum": 282
+                                                    },
+                                                    "locEnd": {
+                                                        "tag": "Position",
+                                                        "posFname": "sample_rescript.res",
+                                                        "posLnum": 14,
+                                                        "posBol": 276,
+                                                        "posCnum": 282
+                                                    },
+                                                    "locGhost": false
+                                                }
+                                            }
+                                        },
+                                        "ppatLoc": {
+                                            "tag": "Location",
+                                            "locStart": {
+                                                "tag": "Position",
+                                                "posFname": "sample_rescript.res",
+                                                "posLnum": 14,
+                                                "posBol": 276,
+                                                "posCnum": 282
+                                            },
+                                            "locEnd": {
+                                                "tag": "Position",
+                                                "posFname": "sample_rescript.res",
+                                                "posLnum": 14,
+                                                "posBol": 276,
+                                                "posCnum": 282
+                                            },
+                                            "locGhost": false
+                                        },
+                                        "ppatAttributes": []
+                                    },
+                                    "pvbExpr": {
+                                        "tag": "Expression",
+                                        "pexpDesc": {
+                                            "tag": "PexpFun",
+                                            "contents": [{
+                                                "tag": "Nolabel"
+                                            }, null, {
+                                                "tag": "Pattern",
+                                                "ppatDesc": {
+                                                    "tag": "PpatConstruct",
+                                                    "contents": [{
+                                                        "tag": "Loc",
+                                                        "txt": {
+                                                            "tag": "Lident",
+                                                            "contents": "()"
+                                                        },
+                                                        "loc": {
+                                                            "tag": "Location",
+                                                            "locStart": {
+                                                                "tag": "Position",
+                                                                "posFname": "sample_rescript.res",
+                                                                "posLnum": 14,
+                                                                "posBol": 276,
+                                                                "posCnum": 294
+                                                            },
+                                                            "locEnd": {
+                                                                "tag": "Position",
+                                                                "posFname": "sample_rescript.res",
+                                                                "posLnum": 14,
+                                                                "posBol": 276,
+                                                                "posCnum": 294
+                                                            },
+                                                            "locGhost": false
+                                                        }
+                                                    }, null]
+                                                },
+                                                "ppatLoc": {
+                                                    "tag": "Location",
+                                                    "locStart": {
+                                                        "tag": "Position",
+                                                        "posFname": "sample_rescript.res",
+                                                        "posLnum": 14,
+                                                        "posBol": 276,
+                                                        "posCnum": 294
+                                                    },
+                                                    "locEnd": {
+                                                        "tag": "Position",
+                                                        "posFname": "sample_rescript.res",
+                                                        "posLnum": 14,
+                                                        "posBol": 276,
+                                                        "posCnum": 294
+                                                    },
+                                                    "locGhost": false
+                                                },
+                                                "ppatAttributes": []
+                                            }, {
+                                                "tag": "Expression",
+                                                "pexpDesc": {
+                                                    "tag": "PexpApply",
+                                                    "contents": [{
+                                                            "tag": "Expression",
+                                                            "pexpDesc": {
+                                                                "tag": "PexpIdent",
+                                                                "contents": {
+                                                                    "tag": "Loc",
+                                                                    "txt": {
+                                                                        "tag": "Lident",
+                                                                        "contents": ":="
+                                                                    },
+                                                                    "loc": {
+                                                                        "tag": "Location",
+                                                                        "locStart": {
+                                                                            "tag": "Position",
+                                                                            "posFname": "sample_rescript.res",
+                                                                            "posLnum": 15,
+                                                                            "posBol": 302,
+                                                                            "posCnum": 314
+                                                                        },
+                                                                        "locEnd": {
+                                                                            "tag": "Position",
+                                                                            "posFname": "sample_rescript.res",
+                                                                            "posLnum": 15,
+                                                                            "posBol": 302,
+                                                                            "posCnum": 314
+                                                                        },
+                                                                        "locGhost": false
+                                                                    }
+                                                                }
+                                                            },
+                                                            "pexpLoc": {
+                                                                "tag": "Location",
+                                                                "locStart": {
+                                                                    "tag": "Position",
+                                                                    "posFname": "sample_rescript.res",
+                                                                    "posLnum": 15,
+                                                                    "posBol": 302,
+                                                                    "posCnum": 314
+                                                                },
+                                                                "locEnd": {
+                                                                    "tag": "Position",
+                                                                    "posFname": "sample_rescript.res",
+                                                                    "posLnum": 15,
+                                                                    "posBol": 302,
+                                                                    "posCnum": 314
+                                                                },
+                                                                "locGhost": false
+                                                            },
+                                                            "pexpAttributes": []
+                                                        },
+                                                        [
+                                                            [{
+                                                                "tag": "Nolabel"
+                                                            }, {
+                                                                "tag": "Expression",
+                                                                "pexpDesc": {
+                                                                    "tag": "PexpIdent",
+                                                                    "contents": {
+                                                                        "tag": "Loc",
+                                                                        "txt": {
+                                                                            "tag": "Lident",
+                                                                            "contents": "counter"
+                                                                        },
+                                                                        "loc": {
+                                                                            "tag": "Location",
+                                                                            "locStart": {
+                                                                                "tag": "Position",
+                                                                                "posFname": "sample_rescript.res",
+                                                                                "posLnum": 15,
+                                                                                "posBol": 302,
+                                                                                "posCnum": 306
+                                                                            },
+                                                                            "locEnd": {
+                                                                                "tag": "Position",
+                                                                                "posFname": "sample_rescript.res",
+                                                                                "posLnum": 15,
+                                                                                "posBol": 302,
+                                                                                "posCnum": 306
+                                                                            },
+                                                                            "locGhost": false
+                                                                        }
+                                                                    }
+                                                                },
+                                                                "pexpLoc": {
+                                                                    "tag": "Location",
+                                                                    "locStart": {
+                                                                        "tag": "Position",
+                                                                        "posFname": "sample_rescript.res",
+                                                                        "posLnum": 15,
+                                                                        "posBol": 302,
+                                                                        "posCnum": 306
+                                                                    },
+                                                                    "locEnd": {
+                                                                        "tag": "Position",
+                                                                        "posFname": "sample_rescript.res",
+                                                                        "posLnum": 15,
+                                                                        "posBol": 302,
+                                                                        "posCnum": 306
+                                                                    },
+                                                                    "locGhost": false
+                                                                },
+                                                                "pexpAttributes": []
+                                                            }],
+                                                            [{
+                                                                "tag": "Nolabel"
+                                                            }, {
+                                                                "tag": "Expression",
+                                                                "pexpDesc": {
+                                                                    "tag": "PexpApply",
+                                                                    "contents": [{
+                                                                            "tag": "Expression",
+                                                                            "pexpDesc": {
+                                                                                "tag": "PexpIdent",
+                                                                                "contents": {
+                                                                                    "tag": "Loc",
+                                                                                    "txt": {
+                                                                                        "tag": "Lident",
+                                                                                        "contents": "-"
+                                                                                    },
+                                                                                    "loc": {
+                                                                                        "tag": "Location",
+                                                                                        "locStart": {
+                                                                                            "tag": "Position",
+                                                                                            "posFname": "sample_rescript.res",
+                                                                                            "posLnum": 15,
+                                                                                            "posBol": 302,
+                                                                                            "posCnum": 325
+                                                                                        },
+                                                                                        "locEnd": {
+                                                                                            "tag": "Position",
+                                                                                            "posFname": "sample_rescript.res",
+                                                                                            "posLnum": 15,
+                                                                                            "posBol": 302,
+                                                                                            "posCnum": 325
+                                                                                        },
+                                                                                        "locGhost": false
+                                                                                    }
+                                                                                }
+                                                                            },
+                                                                            "pexpLoc": {
+                                                                                "tag": "Location",
+                                                                                "locStart": {
+                                                                                    "tag": "Position",
+                                                                                    "posFname": "sample_rescript.res",
+                                                                                    "posLnum": 15,
+                                                                                    "posBol": 302,
+                                                                                    "posCnum": 325
+                                                                                },
+                                                                                "locEnd": {
+                                                                                    "tag": "Position",
+                                                                                    "posFname": "sample_rescript.res",
+                                                                                    "posLnum": 15,
+                                                                                    "posBol": 302,
+                                                                                    "posCnum": 325
+                                                                                },
+                                                                                "locGhost": false
+                                                                            },
+                                                                            "pexpAttributes": []
+                                                                        },
+                                                                        [
+                                                                            [{
+                                                                                "tag": "Nolabel"
+                                                                            }, {
+                                                                                "tag": "Expression",
+                                                                                "pexpDesc": {
+                                                                                    "tag": "PexpIdent",
+                                                                                    "contents": {
+                                                                                        "tag": "Loc",
+                                                                                        "txt": {
+                                                                                            "tag": "Lident",
+                                                                                            "contents": "counter"
+                                                                                        },
+                                                                                        "loc": {
+                                                                                            "tag": "Location",
+                                                                                            "locStart": {
+                                                                                                "tag": "Position",
+                                                                                                "posFname": "sample_rescript.res",
+                                                                                                "posLnum": 15,
+                                                                                                "posBol": 302,
+                                                                                                "posCnum": 317
+                                                                                            },
+                                                                                            "locEnd": {
+                                                                                                "tag": "Position",
+                                                                                                "posFname": "sample_rescript.res",
+                                                                                                "posLnum": 15,
+                                                                                                "posBol": 302,
+                                                                                                "posCnum": 317
+                                                                                            },
+                                                                                            "locGhost": false
+                                                                                        }
+                                                                                    }
+                                                                                },
+                                                                                "pexpLoc": {
+                                                                                    "tag": "Location",
+                                                                                    "locStart": {
+                                                                                        "tag": "Position",
+                                                                                        "posFname": "sample_rescript.res",
+                                                                                        "posLnum": 15,
+                                                                                        "posBol": 302,
+                                                                                        "posCnum": 317
+                                                                                    },
+                                                                                    "locEnd": {
+                                                                                        "tag": "Position",
+                                                                                        "posFname": "sample_rescript.res",
+                                                                                        "posLnum": 15,
+                                                                                        "posBol": 302,
+                                                                                        "posCnum": 317
+                                                                                    },
+                                                                                    "locGhost": false
+                                                                                },
+                                                                                "pexpAttributes": []
+                                                                            }],
+                                                                            [{
+                                                                                "tag": "Nolabel"
+                                                                            }, {
+                                                                                "tag": "Expression",
+                                                                                "pexpDesc": {
+                                                                                    "tag": "PexpConstant",
+                                                                                    "contents": {
+                                                                                        "tag": "PconstInteger",
+                                                                                        "contents": ["1", null]
+                                                                                    }
+                                                                                },
+                                                                                "pexpLoc": {
+                                                                                    "tag": "Location",
+                                                                                    "locStart": {
+                                                                                        "tag": "Position",
+                                                                                        "posFname": "sample_rescript.res",
+                                                                                        "posLnum": 15,
+                                                                                        "posBol": 302,
+                                                                                        "posCnum": 327
+                                                                                    },
+                                                                                    "locEnd": {
+                                                                                        "tag": "Position",
+                                                                                        "posFname": "sample_rescript.res",
+                                                                                        "posLnum": 15,
+                                                                                        "posBol": 302,
+                                                                                        "posCnum": 327
+                                                                                    },
+                                                                                    "locGhost": false
+                                                                                },
+                                                                                "pexpAttributes": []
+                                                                            }]
+                                                                        ]
+                                                                    ]
+                                                                },
+                                                                "pexpLoc": {
+                                                                    "tag": "Location",
+                                                                    "locStart": {
+                                                                        "tag": "Position",
+                                                                        "posFname": "sample_rescript.res",
+                                                                        "posLnum": 15,
+                                                                        "posBol": 302,
+                                                                        "posCnum": 317
+                                                                    },
+                                                                    "locEnd": {
+                                                                        "tag": "Position",
+                                                                        "posFname": "sample_rescript.res",
+                                                                        "posLnum": 15,
+                                                                        "posBol": 302,
+                                                                        "posCnum": 317
+                                                                    },
+                                                                    "locGhost": false
+                                                                },
+                                                                "pexpAttributes": []
+                                                            }]
+                                                        ]
+                                                    ]
+                                                },
+                                                "pexpLoc": {
+                                                    "tag": "Location",
+                                                    "locStart": {
+                                                        "tag": "Position",
+                                                        "posFname": "sample_rescript.res",
+                                                        "posLnum": 15,
+                                                        "posBol": 302,
+                                                        "posCnum": 306
+                                                    },
+                                                    "locEnd": {
+                                                        "tag": "Position",
+                                                        "posFname": "sample_rescript.res",
+                                                        "posLnum": 15,
+                                                        "posBol": 302,
+                                                        "posCnum": 306
+                                                    },
+                                                    "locGhost": false
+                                                },
+                                                "pexpAttributes": [
+                                                    [{
+                                                        "tag": "Loc",
+                                                        "txt": "res.braces",
+                                                        "loc": {
+                                                            "tag": "Location",
+                                                            "locStart": {
+                                                                "tag": "Position",
+                                                                "posFname": "sample_rescript.res",
+                                                                "posLnum": 14,
+                                                                "posBol": 276,
+                                                                "posCnum": 300
+                                                            },
+                                                            "locEnd": {
+                                                                "tag": "Position",
+                                                                "posFname": "sample_rescript.res",
+                                                                "posLnum": 14,
+                                                                "posBol": 276,
+                                                                "posCnum": 300
+                                                            },
+                                                            "locGhost": false
+                                                        }
+                                                    }, {
+                                                        "tag": "PStr",
+                                                        "contents": []
+                                                    }]
+                                                ]
+                                            }]
+                                        },
+                                        "pexpLoc": {
+                                            "tag": "Location",
+                                            "locStart": {
+                                                "tag": "Position",
+                                                "posFname": "sample_rescript.res",
+                                                "posLnum": 14,
+                                                "posBol": 276,
+                                                "posCnum": 294
+                                            },
+                                            "locEnd": {
+                                                "tag": "Position",
+                                                "posFname": "sample_rescript.res",
+                                                "posLnum": 14,
+                                                "posBol": 276,
+                                                "posCnum": 294
+                                            },
+                                            "locGhost": false
+                                        },
+                                        "pexpAttributes": []
+                                    },
+                                    "pvbAttributes": [],
+                                    "pvbLoc": {
+                                        "tag": "Location",
+                                        "locStart": {
+                                            "tag": "Position",
+                                            "posFname": "sample_rescript.res",
+                                            "posLnum": 14,
+                                            "posBol": 276,
+                                            "posCnum": 278
+                                        },
+                                        "locEnd": {
+                                            "tag": "Position",
+                                            "posFname": "sample_rescript.res",
+                                            "posLnum": 14,
+                                            "posBol": 276,
+                                            "posCnum": 278
+                                        },
+                                        "locGhost": false
+                                    }
+                                }]
+                            ]
+                        },
+                        "pstrLoc": {
+                            "tag": "Location",
+                            "locStart": {
+                                "tag": "Position",
+                                "posFname": "sample_rescript.res",
+                                "posLnum": 14,
+                                "posBol": 276,
+                                "posCnum": 278
+                            },
+                            "locEnd": {
+                                "tag": "Position",
+                                "posFname": "sample_rescript.res",
+                                "posLnum": 14,
+                                "posBol": 276,
+                                "posCnum": 278
+                            },
+                            "locGhost": false
+                        }
+                    }, {
+                        "tag": "StructureItem",
+                        "pstrDesc": {
+                            "tag": "PstrValue",
+                            "contents": [{
+                                    "tag": "Nonrecursive"
+                                },
+                                [{
+                                    "tag": "ValueBinding",
+                                    "pvbPat": {
+                                        "tag": "Pattern",
+                                        "ppatDesc": {
+                                            "tag": "PpatVar",
+                                            "contents": {
+                                                "tag": "Loc",
+                                                "txt": "getValue",
+                                                "loc": {
+                                                    "tag": "Location",
+                                                    "locStart": {
+                                                        "tag": "Position",
+                                                        "posFname": "sample_rescript.res",
+                                                        "posLnum": 19,
+                                                        "posBol": 391,
+                                                        "posCnum": 397
+                                                    },
+                                                    "locEnd": {
+                                                        "tag": "Position",
+                                                        "posFname": "sample_rescript.res",
+                                                        "posLnum": 19,
+                                                        "posBol": 391,
+                                                        "posCnum": 397
+                                                    },
+                                                    "locGhost": false
+                                                }
+                                            }
+                                        },
+                                        "ppatLoc": {
+                                            "tag": "Location",
+                                            "locStart": {
+                                                "tag": "Position",
+                                                "posFname": "sample_rescript.res",
+                                                "posLnum": 19,
+                                                "posBol": 391,
+                                                "posCnum": 397
+                                            },
+                                            "locEnd": {
+                                                "tag": "Position",
+                                                "posFname": "sample_rescript.res",
+                                                "posLnum": 19,
+                                                "posBol": 391,
+                                                "posCnum": 397
+                                            },
+                                            "locGhost": false
+                                        },
+                                        "ppatAttributes": []
+                                    },
+                                    "pvbExpr": {
+                                        "tag": "Expression",
+                                        "pexpDesc": {
+                                            "tag": "PexpFun",
+                                            "contents": [{
+                                                "tag": "Nolabel"
+                                            }, null, {
+                                                "tag": "Pattern",
+                                                "ppatDesc": {
+                                                    "tag": "PpatConstruct",
+                                                    "contents": [{
+                                                        "tag": "Loc",
+                                                        "txt": {
+                                                            "tag": "Lident",
+                                                            "contents": "()"
+                                                        },
+                                                        "loc": {
+                                                            "tag": "Location",
+                                                            "locStart": {
+                                                                "tag": "Position",
+                                                                "posFname": "sample_rescript.res",
+                                                                "posLnum": 19,
+                                                                "posBol": 391,
+                                                                "posCnum": 408
+                                                            },
+                                                            "locEnd": {
+                                                                "tag": "Position",
+                                                                "posFname": "sample_rescript.res",
+                                                                "posLnum": 19,
+                                                                "posBol": 391,
+                                                                "posCnum": 408
+                                                            },
+                                                            "locGhost": false
+                                                        }
+                                                    }, null]
+                                                },
+                                                "ppatLoc": {
+                                                    "tag": "Location",
+                                                    "locStart": {
+                                                        "tag": "Position",
+                                                        "posFname": "sample_rescript.res",
+                                                        "posLnum": 19,
+                                                        "posBol": 391,
+                                                        "posCnum": 408
+                                                    },
+                                                    "locEnd": {
+                                                        "tag": "Position",
+                                                        "posFname": "sample_rescript.res",
+                                                        "posLnum": 19,
+                                                        "posBol": 391,
+                                                        "posCnum": 408
+                                                    },
+                                                    "locGhost": false
+                                                },
+                                                "ppatAttributes": []
+                                            }, {
+                                                "tag": "Expression",
+                                                "pexpDesc": {
+                                                    "tag": "PexpApply",
+                                                    "contents": [{
+                                                            "tag": "Expression",
+                                                            "pexpDesc": {
+                                                                "tag": "PexpIdent",
+                                                                "contents": {
+                                                                    "tag": "Loc",
+                                                                    "txt": {
+                                                                        "tag": "Lident",
+                                                                        "contents": "not"
+                                                                    },
+                                                                    "loc": {
+                                                                        "tag": "Location",
+                                                                        "locStart": {
+                                                                            "tag": "Position",
+                                                                            "posFname": "sample_rescript.res",
+                                                                            "posLnum": 20,
+                                                                            "posBol": 416,
+                                                                            "posCnum": 420
+                                                                        },
+                                                                        "locEnd": {
+                                                                            "tag": "Position",
+                                                                            "posFname": "sample_rescript.res",
+                                                                            "posLnum": 20,
+                                                                            "posBol": 416,
+                                                                            "posCnum": 420
+                                                                        },
+                                                                        "locGhost": false
+                                                                    }
+                                                                }
+                                                            },
+                                                            "pexpLoc": {
+                                                                "tag": "Location",
+                                                                "locStart": {
+                                                                    "tag": "Position",
+                                                                    "posFname": "sample_rescript.res",
+                                                                    "posLnum": 20,
+                                                                    "posBol": 416,
+                                                                    "posCnum": 420
+                                                                },
+                                                                "locEnd": {
+                                                                    "tag": "Position",
+                                                                    "posFname": "sample_rescript.res",
+                                                                    "posLnum": 20,
+                                                                    "posBol": 416,
+                                                                    "posCnum": 420
+                                                                },
+                                                                "locGhost": false
+                                                            },
+                                                            "pexpAttributes": []
+                                                        },
+                                                        [
+                                                            [{
+                                                                "tag": "Nolabel"
+                                                            }, {
+                                                                "tag": "Expression",
+                                                                "pexpDesc": {
+                                                                    "tag": "PexpIdent",
+                                                                    "contents": {
+                                                                        "tag": "Loc",
+                                                                        "txt": {
+                                                                            "tag": "Lident",
+                                                                            "contents": "counter"
+                                                                        },
+                                                                        "loc": {
+                                                                            "tag": "Location",
+                                                                            "locStart": {
+                                                                                "tag": "Position",
+                                                                                "posFname": "sample_rescript.res",
+                                                                                "posLnum": 20,
+                                                                                "posBol": 416,
+                                                                                "posCnum": 421
+                                                                            },
+                                                                            "locEnd": {
+                                                                                "tag": "Position",
+                                                                                "posFname": "sample_rescript.res",
+                                                                                "posLnum": 20,
+                                                                                "posBol": 416,
+                                                                                "posCnum": 421
+                                                                            },
+                                                                            "locGhost": false
+                                                                        }
+                                                                    }
+                                                                },
+                                                                "pexpLoc": {
+                                                                    "tag": "Location",
+                                                                    "locStart": {
+                                                                        "tag": "Position",
+                                                                        "posFname": "sample_rescript.res",
+                                                                        "posLnum": 20,
+                                                                        "posBol": 416,
+                                                                        "posCnum": 421
+                                                                    },
+                                                                    "locEnd": {
+                                                                        "tag": "Position",
+                                                                        "posFname": "sample_rescript.res",
+                                                                        "posLnum": 20,
+                                                                        "posBol": 416,
+                                                                        "posCnum": 421
+                                                                    },
+                                                                    "locGhost": false
+                                                                },
+                                                                "pexpAttributes": []
+                                                            }]
+                                                        ]
+                                                    ]
+                                                },
+                                                "pexpLoc": {
+                                                    "tag": "Location",
+                                                    "locStart": {
+                                                        "tag": "Position",
+                                                        "posFname": "sample_rescript.res",
+                                                        "posLnum": 20,
+                                                        "posBol": 416,
+                                                        "posCnum": 420
+                                                    },
+                                                    "locEnd": {
+                                                        "tag": "Position",
+                                                        "posFname": "sample_rescript.res",
+                                                        "posLnum": 20,
+                                                        "posBol": 416,
+                                                        "posCnum": 420
+                                                    },
+                                                    "locGhost": false
+                                                },
+                                                "pexpAttributes": [
+                                                    [{
+                                                        "tag": "Loc",
+                                                        "txt": "res.braces",
+                                                        "loc": {
+                                                            "tag": "Location",
+                                                            "locStart": {
+                                                                "tag": "Position",
+                                                                "posFname": "sample_rescript.res",
+                                                                "posLnum": 19,
+                                                                "posBol": 391,
+                                                                "posCnum": 414
+                                                            },
+                                                            "locEnd": {
+                                                                "tag": "Position",
+                                                                "posFname": "sample_rescript.res",
+                                                                "posLnum": 19,
+                                                                "posBol": 391,
+                                                                "posCnum": 414
+                                                            },
+                                                            "locGhost": false
+                                                        }
+                                                    }, {
+                                                        "tag": "PStr",
+                                                        "contents": []
+                                                    }]
+                                                ]
+                                            }]
+                                        },
+                                        "pexpLoc": {
+                                            "tag": "Location",
+                                            "locStart": {
+                                                "tag": "Position",
+                                                "posFname": "sample_rescript.res",
+                                                "posLnum": 19,
+                                                "posBol": 391,
+                                                "posCnum": 408
+                                            },
+                                            "locEnd": {
+                                                "tag": "Position",
+                                                "posFname": "sample_rescript.res",
+                                                "posLnum": 19,
+                                                "posBol": 391,
+                                                "posCnum": 408
+                                            },
+                                            "locGhost": false
+                                        },
+                                        "pexpAttributes": []
+                                    },
+                                    "pvbAttributes": [],
+                                    "pvbLoc": {
+                                        "tag": "Location",
+                                        "locStart": {
+                                            "tag": "Position",
+                                            "posFname": "sample_rescript.res",
+                                            "posLnum": 19,
+                                            "posBol": 391,
+                                            "posCnum": 393
+                                        },
+                                        "locEnd": {
+                                            "tag": "Position",
+                                            "posFname": "sample_rescript.res",
+                                            "posLnum": 19,
+                                            "posBol": 391,
+                                            "posCnum": 393
+                                        },
+                                        "locGhost": false
+                                    }
+                                }]
+                            ]
+                        },
+                        "pstrLoc": {
+                            "tag": "Location",
+                            "locStart": {
+                                "tag": "Position",
+                                "posFname": "sample_rescript.res",
+                                "posLnum": 19,
+                                "posBol": 391,
+                                "posCnum": 393
+                            },
+                            "locEnd": {
+                                "tag": "Position",
+                                "posFname": "sample_rescript.res",
+                                "posLnum": 19,
+                                "posBol": 391,
+                                "posCnum": 393
+                            },
+                            "locGhost": false
+                        }
+                    }]
+                },
+                "pmodLoc": {
+                    "tag": "Location",
+                    "locStart": {
+                        "tag": "Position",
+                        "posFname": "sample_rescript.res",
+                        "posLnum": 4,
+                        "posBol": 49,
+                        "posCnum": 66
+                    },
+                    "locEnd": {
+                        "tag": "Position",
+                        "posFname": "sample_rescript.res",
+                        "posLnum": 4,
+                        "posBol": 49,
+                        "posCnum": 66
+                    },
+                    "locGhost": false
+                },
+                "pmodAttributes": []
+            },
+            "pmbAttributes": [],
+            "pmbLoc": {
+                "tag": "Location",
+                "locStart": {
+                    "tag": "Position",
+                    "posFname": "sample_rescript.res",
+                    "posLnum": 4,
+                    "posBol": 49,
+                    "posCnum": 56
+                },
+                "locEnd": {
+                    "tag": "Position",
+                    "posFname": "sample_rescript.res",
+                    "posLnum": 4,
+                    "posBol": 49,
+                    "posCnum": 56
+                },
+                "locGhost": false
+            }
+        }
+    },
+    "pstrLoc": {
+        "tag": "Location",
+        "locStart": {
+            "tag": "Position",
+            "posFname": "sample_rescript.res",
+            "posLnum": 4,
+            "posBol": 49,
+            "posCnum": 49
+        },
+        "locEnd": {
+            "tag": "Position",
+            "posFname": "sample_rescript.res",
+            "posLnum": 4,
+            "posBol": 49,
+            "posCnum": 49
+        },
+        "locGhost": false
+    }
+}, {
+    "tag": "StructureItem",
+    "pstrDesc": {
+        "tag": "PstrValue",
+        "contents": [{
+                "tag": "Nonrecursive"
+            },
+            [{
+                "tag": "ValueBinding",
+                "pvbPat": {
+                    "tag": "Pattern",
+                    "ppatDesc": {
+                        "tag": "PpatConstruct",
+                        "contents": [{
+                            "tag": "Loc",
+                            "txt": {
+                                "tag": "Lident",
+                                "contents": "()"
+                            },
+                            "loc": {
+                                "tag": "Location",
+                                "locStart": {
+                                    "tag": "Position",
+                                    "posFname": "sample_rescript.res",
+                                    "posLnum": 25,
+                                    "posBol": 456,
+                                    "posCnum": 460
+                                },
+                                "locEnd": {
+                                    "tag": "Position",
+                                    "posFname": "sample_rescript.res",
+                                    "posLnum": 25,
+                                    "posBol": 456,
+                                    "posCnum": 460
+                                },
+                                "locGhost": false
+                            }
+                        }, null]
+                    },
+                    "ppatLoc": {
+                        "tag": "Location",
+                        "locStart": {
+                            "tag": "Position",
+                            "posFname": "sample_rescript.res",
+                            "posLnum": 25,
+                            "posBol": 456,
+                            "posCnum": 460
+                        },
+                        "locEnd": {
+                            "tag": "Position",
+                            "posFname": "sample_rescript.res",
+                            "posLnum": 25,
+                            "posBol": 456,
+                            "posCnum": 460
+                        },
+                        "locGhost": false
+                    },
+                    "ppatAttributes": []
+                },
+                "pvbExpr": {
+                    "tag": "Expression",
+                    "pexpDesc": {
+                        "tag": "PexpSequence",
+                        "contents": [{
+                            "tag": "Expression",
+                            "pexpDesc": {
+                                "tag": "PexpApply",
+                                "contents": [{
+                                        "tag": "Expression",
+                                        "pexpDesc": {
+                                            "tag": "PexpIdent",
+                                            "contents": {
+                                                "tag": "Loc",
+                                                "txt": {
+                                                    "tag": "Ldot",
+                                                    "contents": [{
+                                                        "tag": "Lident",
+                                                        "contents": "Counter"
+                                                    }, "increment"]
+                                                },
+                                                "loc": {
+                                                    "tag": "Location",
+                                                    "locStart": {
+                                                        "tag": "Position",
+                                                        "posFname": "sample_rescript.res",
+                                                        "posLnum": 27,
+                                                        "posBol": 497,
+                                                        "posCnum": 499
+                                                    },
+                                                    "locEnd": {
+                                                        "tag": "Position",
+                                                        "posFname": "sample_rescript.res",
+                                                        "posLnum": 27,
+                                                        "posBol": 497,
+                                                        "posCnum": 499
+                                                    },
+                                                    "locGhost": false
+                                                }
+                                            }
+                                        },
+                                        "pexpLoc": {
+                                            "tag": "Location",
+                                            "locStart": {
+                                                "tag": "Position",
+                                                "posFname": "sample_rescript.res",
+                                                "posLnum": 27,
+                                                "posBol": 497,
+                                                "posCnum": 499
+                                            },
+                                            "locEnd": {
+                                                "tag": "Position",
+                                                "posFname": "sample_rescript.res",
+                                                "posLnum": 27,
+                                                "posBol": 497,
+                                                "posCnum": 499
+                                            },
+                                            "locGhost": false
+                                        },
+                                        "pexpAttributes": []
+                                    },
+                                    [
+                                        [{
+                                            "tag": "Nolabel"
+                                        }, {
+                                            "tag": "Expression",
+                                            "pexpDesc": {
+                                                "tag": "PexpConstruct",
+                                                "contents": [{
+                                                    "tag": "Loc",
+                                                    "txt": {
+                                                        "tag": "Lident",
+                                                        "contents": "()"
+                                                    },
+                                                    "loc": {
+                                                        "tag": "Location",
+                                                        "locStart": {
+                                                            "tag": "Position",
+                                                            "posFname": "sample_rescript.res",
+                                                            "posLnum": 27,
+                                                            "posBol": 497,
+                                                            "posCnum": 517
+                                                        },
+                                                        "locEnd": {
+                                                            "tag": "Position",
+                                                            "posFname": "sample_rescript.res",
+                                                            "posLnum": 27,
+                                                            "posBol": 497,
+                                                            "posCnum": 517
+                                                        },
+                                                        "locGhost": false
+                                                    }
+                                                }, null]
+                                            },
+                                            "pexpLoc": {
+                                                "tag": "Location",
+                                                "locStart": {
+                                                    "tag": "Position",
+                                                    "posFname": "sample_rescript.res",
+                                                    "posLnum": 27,
+                                                    "posBol": 497,
+                                                    "posCnum": 517
+                                                },
+                                                "locEnd": {
+                                                    "tag": "Position",
+                                                    "posFname": "sample_rescript.res",
+                                                    "posLnum": 27,
+                                                    "posBol": 497,
+                                                    "posCnum": 517
+                                                },
+                                                "locGhost": false
+                                            },
+                                            "pexpAttributes": []
+                                        }]
+                                    ]
+                                ]
+                            },
+                            "pexpLoc": {
+                                "tag": "Location",
+                                "locStart": {
+                                    "tag": "Position",
+                                    "posFname": "sample_rescript.res",
+                                    "posLnum": 27,
+                                    "posBol": 497,
+                                    "posCnum": 499
+                                },
+                                "locEnd": {
+                                    "tag": "Position",
+                                    "posFname": "sample_rescript.res",
+                                    "posLnum": 27,
+                                    "posBol": 497,
+                                    "posCnum": 499
+                                },
+                                "locGhost": false
+                            },
+                            "pexpAttributes": []
+                        }, {
+                            "tag": "Expression",
+                            "pexpDesc": {
+                                "tag": "PexpSequence",
+                                "contents": [{
+                                    "tag": "Expression",
+                                    "pexpDesc": {
+                                        "tag": "PexpApply",
+                                        "contents": [{
+                                                "tag": "Expression",
+                                                "pexpDesc": {
+                                                    "tag": "PexpIdent",
+                                                    "contents": {
+                                                        "tag": "Loc",
+                                                        "txt": {
+                                                            "tag": "Ldot",
+                                                            "contents": [{
+                                                                "tag": "Lident",
+                                                                "contents": "Js"
+                                                            }, "log"]
+                                                        },
+                                                        "loc": {
+                                                            "tag": "Location",
+                                                            "locStart": {
+                                                                "tag": "Position",
+                                                                "posFname": "sample_rescript.res",
+                                                                "posLnum": 30,
+                                                                "posBol": 567,
+                                                                "posCnum": 569
+                                                            },
+                                                            "locEnd": {
+                                                                "tag": "Position",
+                                                                "posFname": "sample_rescript.res",
+                                                                "posLnum": 30,
+                                                                "posBol": 567,
+                                                                "posCnum": 569
+                                                            },
+                                                            "locGhost": false
+                                                        }
+                                                    }
+                                                },
+                                                "pexpLoc": {
+                                                    "tag": "Location",
+                                                    "locStart": {
+                                                        "tag": "Position",
+                                                        "posFname": "sample_rescript.res",
+                                                        "posLnum": 30,
+                                                        "posBol": 567,
+                                                        "posCnum": 569
+                                                    },
+                                                    "locEnd": {
+                                                        "tag": "Position",
+                                                        "posFname": "sample_rescript.res",
+                                                        "posLnum": 30,
+                                                        "posBol": 567,
+                                                        "posCnum": 569
+                                                    },
+                                                    "locGhost": false
+                                                },
+                                                "pexpAttributes": []
+                                            },
+                                            [
+                                                [{
+                                                    "tag": "Nolabel"
+                                                }, {
+                                                    "tag": "Expression",
+                                                    "pexpDesc": {
+                                                        "tag": "PexpConstant",
+                                                        "contents": {
+                                                            "tag": "PconstString",
+                                                            "contents": ["Current value of counter:", "js"]
+                                                        }
+                                                    },
+                                                    "pexpLoc": {
+                                                        "tag": "Location",
+                                                        "locStart": {
+                                                            "tag": "Position",
+                                                            "posFname": "sample_rescript.res",
+                                                            "posLnum": 30,
+                                                            "posBol": 567,
+                                                            "posCnum": 576
+                                                        },
+                                                        "locEnd": {
+                                                            "tag": "Position",
+                                                            "posFname": "sample_rescript.res",
+                                                            "posLnum": 30,
+                                                            "posBol": 567,
+                                                            "posCnum": 576
+                                                        },
+                                                        "locGhost": false
+                                                    },
+                                                    "pexpAttributes": []
+                                                }],
+                                                [{
+                                                    "tag": "Nolabel"
+                                                }, {
+                                                    "tag": "Expression",
+                                                    "pexpDesc": {
+                                                        "tag": "PexpApply",
+                                                        "contents": [{
+                                                                "tag": "Expression",
+                                                                "pexpDesc": {
+                                                                    "tag": "PexpIdent",
+                                                                    "contents": {
+                                                                        "tag": "Loc",
+                                                                        "txt": {
+                                                                            "tag": "Ldot",
+                                                                            "contents": [{
+                                                                                "tag": "Lident",
+                                                                                "contents": "Counter"
+                                                                            }, "getValue"]
+                                                                        },
+                                                                        "loc": {
+                                                                            "tag": "Location",
+                                                                            "locStart": {
+                                                                                "tag": "Position",
+                                                                                "posFname": "sample_rescript.res",
+                                                                                "posLnum": 30,
+                                                                                "posBol": 567,
+                                                                                "posCnum": 605
+                                                                            },
+                                                                            "locEnd": {
+                                                                                "tag": "Position",
+                                                                                "posFname": "sample_rescript.res",
+                                                                                "posLnum": 30,
+                                                                                "posBol": 567,
+                                                                                "posCnum": 605
+                                                                            },
+                                                                            "locGhost": false
+                                                                        }
+                                                                    }
+                                                                },
+                                                                "pexpLoc": {
+                                                                    "tag": "Location",
+                                                                    "locStart": {
+                                                                        "tag": "Position",
+                                                                        "posFname": "sample_rescript.res",
+                                                                        "posLnum": 30,
+                                                                        "posBol": 567,
+                                                                        "posCnum": 605
+                                                                    },
+                                                                    "locEnd": {
+                                                                        "tag": "Position",
+                                                                        "posFname": "sample_rescript.res",
+                                                                        "posLnum": 30,
+                                                                        "posBol": 567,
+                                                                        "posCnum": 605
+                                                                    },
+                                                                    "locGhost": false
+                                                                },
+                                                                "pexpAttributes": []
+                                                            },
+                                                            [
+                                                                [{
+                                                                    "tag": "Nolabel"
+                                                                }, {
+                                                                    "tag": "Expression",
+                                                                    "pexpDesc": {
+                                                                        "tag": "PexpConstruct",
+                                                                        "contents": [{
+                                                                            "tag": "Loc",
+                                                                            "txt": {
+                                                                                "tag": "Lident",
+                                                                                "contents": "()"
+                                                                            },
+                                                                            "loc": {
+                                                                                "tag": "Location",
+                                                                                "locStart": {
+                                                                                    "tag": "Position",
+                                                                                    "posFname": "sample_rescript.res",
+                                                                                    "posLnum": 30,
+                                                                                    "posBol": 567,
+                                                                                    "posCnum": 622
+                                                                                },
+                                                                                "locEnd": {
+                                                                                    "tag": "Position",
+                                                                                    "posFname": "sample_rescript.res",
+                                                                                    "posLnum": 30,
+                                                                                    "posBol": 567,
+                                                                                    "posCnum": 622
+                                                                                },
+                                                                                "locGhost": false
+                                                                            }
+                                                                        }, null]
+                                                                    },
+                                                                    "pexpLoc": {
+                                                                        "tag": "Location",
+                                                                        "locStart": {
+                                                                            "tag": "Position",
+                                                                            "posFname": "sample_rescript.res",
+                                                                            "posLnum": 30,
+                                                                            "posBol": 567,
+                                                                            "posCnum": 622
+                                                                        },
+                                                                        "locEnd": {
+                                                                            "tag": "Position",
+                                                                            "posFname": "sample_rescript.res",
+                                                                            "posLnum": 30,
+                                                                            "posBol": 567,
+                                                                            "posCnum": 622
+                                                                        },
+                                                                        "locGhost": false
+                                                                    },
+                                                                    "pexpAttributes": []
+                                                                }]
+                                                            ]
+                                                        ]
+                                                    },
+                                                    "pexpLoc": {
+                                                        "tag": "Location",
+                                                        "locStart": {
+                                                            "tag": "Position",
+                                                            "posFname": "sample_rescript.res",
+                                                            "posLnum": 30,
+                                                            "posBol": 567,
+                                                            "posCnum": 605
+                                                        },
+                                                        "locEnd": {
+                                                            "tag": "Position",
+                                                            "posFname": "sample_rescript.res",
+                                                            "posLnum": 30,
+                                                            "posBol": 567,
+                                                            "posCnum": 605
+                                                        },
+                                                        "locGhost": false
+                                                    },
+                                                    "pexpAttributes": []
+                                                }]
+                                            ]
+                                        ]
+                                    },
+                                    "pexpLoc": {
+                                        "tag": "Location",
+                                        "locStart": {
+                                            "tag": "Position",
+                                            "posFname": "sample_rescript.res",
+                                            "posLnum": 30,
+                                            "posBol": 567,
+                                            "posCnum": 569
+                                        },
+                                        "locEnd": {
+                                            "tag": "Position",
+                                            "posFname": "sample_rescript.res",
+                                            "posLnum": 30,
+                                            "posBol": 567,
+                                            "posCnum": 569
+                                        },
+                                        "locGhost": false
+                                    },
+                                    "pexpAttributes": []
+                                }, {
+                                    "tag": "Expression",
+                                    "pexpDesc": {
+                                        "tag": "PexpSequence",
+                                        "contents": [{
+                                            "tag": "Expression",
+                                            "pexpDesc": {
+                                                "tag": "PexpApply",
+                                                "contents": [{
+                                                        "tag": "Expression",
+                                                        "pexpDesc": {
+                                                            "tag": "PexpIdent",
+                                                            "contents": {
+                                                                "tag": "Loc",
+                                                                "txt": {
+                                                                    "tag": "Ldot",
+                                                                    "contents": [{
+                                                                        "tag": "Lident",
+                                                                        "contents": "Counter"
+                                                                    }, "decrement"]
+                                                                },
+                                                                "loc": {
+                                                                    "tag": "Location",
+                                                                    "locStart": {
+                                                                        "tag": "Position",
+                                                                        "posFname": "sample_rescript.res",
+                                                                        "posLnum": 33,
+                                                                        "posBol": 656,
+                                                                        "posCnum": 658
+                                                                    },
+                                                                    "locEnd": {
+                                                                        "tag": "Position",
+                                                                        "posFname": "sample_rescript.res",
+                                                                        "posLnum": 33,
+                                                                        "posBol": 656,
+                                                                        "posCnum": 658
+                                                                    },
+                                                                    "locGhost": false
+                                                                }
+                                                            }
+                                                        },
+                                                        "pexpLoc": {
+                                                            "tag": "Location",
+                                                            "locStart": {
+                                                                "tag": "Position",
+                                                                "posFname": "sample_rescript.res",
+                                                                "posLnum": 33,
+                                                                "posBol": 656,
+                                                                "posCnum": 658
+                                                            },
+                                                            "locEnd": {
+                                                                "tag": "Position",
+                                                                "posFname": "sample_rescript.res",
+                                                                "posLnum": 33,
+                                                                "posBol": 656,
+                                                                "posCnum": 658
+                                                            },
+                                                            "locGhost": false
+                                                        },
+                                                        "pexpAttributes": []
+                                                    },
+                                                    [
+                                                        [{
+                                                            "tag": "Nolabel"
+                                                        }, {
+                                                            "tag": "Expression",
+                                                            "pexpDesc": {
+                                                                "tag": "PexpConstruct",
+                                                                "contents": [{
+                                                                    "tag": "Loc",
+                                                                    "txt": {
+                                                                        "tag": "Lident",
+                                                                        "contents": "()"
+                                                                    },
+                                                                    "loc": {
+                                                                        "tag": "Location",
+                                                                        "locStart": {
+                                                                            "tag": "Position",
+                                                                            "posFname": "sample_rescript.res",
+                                                                            "posLnum": 33,
+                                                                            "posBol": 656,
+                                                                            "posCnum": 676
+                                                                        },
+                                                                        "locEnd": {
+                                                                            "tag": "Position",
+                                                                            "posFname": "sample_rescript.res",
+                                                                            "posLnum": 33,
+                                                                            "posBol": 656,
+                                                                            "posCnum": 676
+                                                                        },
+                                                                        "locGhost": false
+                                                                    }
+                                                                }, null]
+                                                            },
+                                                            "pexpLoc": {
+                                                                "tag": "Location",
+                                                                "locStart": {
+                                                                    "tag": "Position",
+                                                                    "posFname": "sample_rescript.res",
+                                                                    "posLnum": 33,
+                                                                    "posBol": 656,
+                                                                    "posCnum": 676
+                                                                },
+                                                                "locEnd": {
+                                                                    "tag": "Position",
+                                                                    "posFname": "sample_rescript.res",
+                                                                    "posLnum": 33,
+                                                                    "posBol": 656,
+                                                                    "posCnum": 676
+                                                                },
+                                                                "locGhost": false
+                                                            },
+                                                            "pexpAttributes": []
+                                                        }]
+                                                    ]
+                                                ]
+                                            },
+                                            "pexpLoc": {
+                                                "tag": "Location",
+                                                "locStart": {
+                                                    "tag": "Position",
+                                                    "posFname": "sample_rescript.res",
+                                                    "posLnum": 33,
+                                                    "posBol": 656,
+                                                    "posCnum": 658
+                                                },
+                                                "locEnd": {
+                                                    "tag": "Position",
+                                                    "posFname": "sample_rescript.res",
+                                                    "posLnum": 33,
+                                                    "posBol": 656,
+                                                    "posCnum": 658
+                                                },
+                                                "locGhost": false
+                                            },
+                                            "pexpAttributes": []
+                                        }, {
+                                            "tag": "Expression",
+                                            "pexpDesc": {
+                                                "tag": "PexpApply",
+                                                "contents": [{
+                                                        "tag": "Expression",
+                                                        "pexpDesc": {
+                                                            "tag": "PexpIdent",
+                                                            "contents": {
+                                                                "tag": "Loc",
+                                                                "txt": {
+                                                                    "tag": "Ldot",
+                                                                    "contents": [{
+                                                                        "tag": "Lident",
+                                                                        "contents": "Js"
+                                                                    }, "log"]
+                                                                },
+                                                                "loc": {
+                                                                    "tag": "Location",
+                                                                    "locStart": {
+                                                                        "tag": "Position",
+                                                                        "posFname": "sample_rescript.res",
+                                                                        "posLnum": 36,
+                                                                        "posBol": 726,
+                                                                        "posCnum": 728
+                                                                    },
+                                                                    "locEnd": {
+                                                                        "tag": "Position",
+                                                                        "posFname": "sample_rescript.res",
+                                                                        "posLnum": 36,
+                                                                        "posBol": 726,
+                                                                        "posCnum": 728
+                                                                    },
+                                                                    "locGhost": false
+                                                                }
+                                                            }
+                                                        },
+                                                        "pexpLoc": {
+                                                            "tag": "Location",
+                                                            "locStart": {
+                                                                "tag": "Position",
+                                                                "posFname": "sample_rescript.res",
+                                                                "posLnum": 36,
+                                                                "posBol": 726,
+                                                                "posCnum": 728
+                                                            },
+                                                            "locEnd": {
+                                                                "tag": "Position",
+                                                                "posFname": "sample_rescript.res",
+                                                                "posLnum": 36,
+                                                                "posBol": 726,
+                                                                "posCnum": 728
+                                                            },
+                                                            "locGhost": false
+                                                        },
+                                                        "pexpAttributes": []
+                                                    },
+                                                    [
+                                                        [{
+                                                            "tag": "Nolabel"
+                                                        }, {
+                                                            "tag": "Expression",
+                                                            "pexpDesc": {
+                                                                "tag": "PexpConstant",
+                                                                "contents": {
+                                                                    "tag": "PconstString",
+                                                                    "contents": ["Current value of counter:", "js"]
+                                                                }
+                                                            },
+                                                            "pexpLoc": {
+                                                                "tag": "Location",
+                                                                "locStart": {
+                                                                    "tag": "Position",
+                                                                    "posFname": "sample_rescript.res",
+                                                                    "posLnum": 36,
+                                                                    "posBol": 726,
+                                                                    "posCnum": 735
+                                                                },
+                                                                "locEnd": {
+                                                                    "tag": "Position",
+                                                                    "posFname": "sample_rescript.res",
+                                                                    "posLnum": 36,
+                                                                    "posBol": 726,
+                                                                    "posCnum": 735
+                                                                },
+                                                                "locGhost": false
+                                                            },
+                                                            "pexpAttributes": []
+                                                        }],
+                                                        [{
+                                                            "tag": "Nolabel"
+                                                        }, {
+                                                            "tag": "Expression",
+                                                            "pexpDesc": {
+                                                                "tag": "PexpApply",
+                                                                "contents": [{
+                                                                        "tag": "Expression",
+                                                                        "pexpDesc": {
+                                                                            "tag": "PexpIdent",
+                                                                            "contents": {
+                                                                                "tag": "Loc",
+                                                                                "txt": {
+                                                                                    "tag": "Ldot",
+                                                                                    "contents": [{
+                                                                                        "tag": "Lident",
+                                                                                        "contents": "Counter"
+                                                                                    }, "getValue"]
+                                                                                },
+                                                                                "loc": {
+                                                                                    "tag": "Location",
+                                                                                    "locStart": {
+                                                                                        "tag": "Position",
+                                                                                        "posFname": "sample_rescript.res",
+                                                                                        "posLnum": 36,
+                                                                                        "posBol": 726,
+                                                                                        "posCnum": 764
+                                                                                    },
+                                                                                    "locEnd": {
+                                                                                        "tag": "Position",
+                                                                                        "posFname": "sample_rescript.res",
+                                                                                        "posLnum": 36,
+                                                                                        "posBol": 726,
+                                                                                        "posCnum": 764
+                                                                                    },
+                                                                                    "locGhost": false
+                                                                                }
+                                                                            }
+                                                                        },
+                                                                        "pexpLoc": {
+                                                                            "tag": "Location",
+                                                                            "locStart": {
+                                                                                "tag": "Position",
+                                                                                "posFname": "sample_rescript.res",
+                                                                                "posLnum": 36,
+                                                                                "posBol": 726,
+                                                                                "posCnum": 764
+                                                                            },
+                                                                            "locEnd": {
+                                                                                "tag": "Position",
+                                                                                "posFname": "sample_rescript.res",
+                                                                                "posLnum": 36,
+                                                                                "posBol": 726,
+                                                                                "posCnum": 764
+                                                                            },
+                                                                            "locGhost": false
+                                                                        },
+                                                                        "pexpAttributes": []
+                                                                    },
+                                                                    [
+                                                                        [{
+                                                                            "tag": "Nolabel"
+                                                                        }, {
+                                                                            "tag": "Expression",
+                                                                            "pexpDesc": {
+                                                                                "tag": "PexpConstruct",
+                                                                                "contents": [{
+                                                                                    "tag": "Loc",
+                                                                                    "txt": {
+                                                                                        "tag": "Lident",
+                                                                                        "contents": "()"
+                                                                                    },
+                                                                                    "loc": {
+                                                                                        "tag": "Location",
+                                                                                        "locStart": {
+                                                                                            "tag": "Position",
+                                                                                            "posFname": "sample_rescript.res",
+                                                                                            "posLnum": 36,
+                                                                                            "posBol": 726,
+                                                                                            "posCnum": 781
+                                                                                        },
+                                                                                        "locEnd": {
+                                                                                            "tag": "Position",
+                                                                                            "posFname": "sample_rescript.res",
+                                                                                            "posLnum": 36,
+                                                                                            "posBol": 726,
+                                                                                            "posCnum": 781
+                                                                                        },
+                                                                                        "locGhost": false
+                                                                                    }
+                                                                                }, null]
+                                                                            },
+                                                                            "pexpLoc": {
+                                                                                "tag": "Location",
+                                                                                "locStart": {
+                                                                                    "tag": "Position",
+                                                                                    "posFname": "sample_rescript.res",
+                                                                                    "posLnum": 36,
+                                                                                    "posBol": 726,
+                                                                                    "posCnum": 781
+                                                                                },
+                                                                                "locEnd": {
+                                                                                    "tag": "Position",
+                                                                                    "posFname": "sample_rescript.res",
+                                                                                    "posLnum": 36,
+                                                                                    "posBol": 726,
+                                                                                    "posCnum": 781
+                                                                                },
+                                                                                "locGhost": false
+                                                                            },
+                                                                            "pexpAttributes": []
+                                                                        }]
+                                                                    ]
+                                                                ]
+                                                            },
+                                                            "pexpLoc": {
+                                                                "tag": "Location",
+                                                                "locStart": {
+                                                                    "tag": "Position",
+                                                                    "posFname": "sample_rescript.res",
+                                                                    "posLnum": 36,
+                                                                    "posBol": 726,
+                                                                    "posCnum": 764
+                                                                },
+                                                                "locEnd": {
+                                                                    "tag": "Position",
+                                                                    "posFname": "sample_rescript.res",
+                                                                    "posLnum": 36,
+                                                                    "posBol": 726,
+                                                                    "posCnum": 764
+                                                                },
+                                                                "locGhost": false
+                                                            },
+                                                            "pexpAttributes": []
+                                                        }]
+                                                    ]
+                                                ]
+                                            },
+                                            "pexpLoc": {
+                                                "tag": "Location",
+                                                "locStart": {
+                                                    "tag": "Position",
+                                                    "posFname": "sample_rescript.res",
+                                                    "posLnum": 36,
+                                                    "posBol": 726,
+                                                    "posCnum": 728
+                                                },
+                                                "locEnd": {
+                                                    "tag": "Position",
+                                                    "posFname": "sample_rescript.res",
+                                                    "posLnum": 36,
+                                                    "posBol": 726,
+                                                    "posCnum": 728
+                                                },
+                                                "locGhost": false
+                                            },
+                                            "pexpAttributes": []
+                                        }]
+                                    },
+                                    "pexpLoc": {
+                                        "tag": "Location",
+                                        "locStart": {
+                                            "tag": "Position",
+                                            "posFname": "sample_rescript.res",
+                                            "posLnum": 33,
+                                            "posBol": 656,
+                                            "posCnum": 658
+                                        },
+                                        "locEnd": {
+                                            "tag": "Position",
+                                            "posFname": "sample_rescript.res",
+                                            "posLnum": 33,
+                                            "posBol": 656,
+                                            "posCnum": 658
+                                        },
+                                        "locGhost": false
+                                    },
+                                    "pexpAttributes": []
+                                }]
+                            },
+                            "pexpLoc": {
+                                "tag": "Location",
+                                "locStart": {
+                                    "tag": "Position",
+                                    "posFname": "sample_rescript.res",
+                                    "posLnum": 30,
+                                    "posBol": 567,
+                                    "posCnum": 569
+                                },
+                                "locEnd": {
+                                    "tag": "Position",
+                                    "posFname": "sample_rescript.res",
+                                    "posLnum": 30,
+                                    "posBol": 567,
+                                    "posCnum": 569
+                                },
+                                "locGhost": false
+                            },
+                            "pexpAttributes": []
+                        }]
+                    },
+                    "pexpLoc": {
+                        "tag": "Location",
+                        "locStart": {
+                            "tag": "Position",
+                            "posFname": "sample_rescript.res",
+                            "posLnum": 27,
+                            "posBol": 497,
+                            "posCnum": 499
+                        },
+                        "locEnd": {
+                            "tag": "Position",
+                            "posFname": "sample_rescript.res",
+                            "posLnum": 27,
+                            "posBol": 497,
+                            "posCnum": 499
+                        },
+                        "locGhost": false
+                    },
+                    "pexpAttributes": [
+                        [{
+                            "tag": "Loc",
+                            "txt": "res.braces",
+                            "loc": {
+                                "tag": "Location",
+                                "locStart": {
+                                    "tag": "Position",
+                                    "posFname": "sample_rescript.res",
+                                    "posLnum": 25,
+                                    "posBol": 456,
+                                    "posCnum": 465
+                                },
+                                "locEnd": {
+                                    "tag": "Position",
+                                    "posFname": "sample_rescript.res",
+                                    "posLnum": 25,
+                                    "posBol": 456,
+                                    "posCnum": 465
+                                },
+                                "locGhost": false
+                            }
+                        }, {
+                            "tag": "PStr",
+                            "contents": []
+                        }]
+                    ]
+                },
+                "pvbAttributes": [],
+                "pvbLoc": {
+                    "tag": "Location",
+                    "locStart": {
+                        "tag": "Position",
+                        "posFname": "sample_rescript.res",
+                        "posLnum": 25,
+                        "posBol": 456,
+                        "posCnum": 456
+                    },
+                    "locEnd": {
+                        "tag": "Position",
+                        "posFname": "sample_rescript.res",
+                        "posLnum": 25,
+                        "posBol": 456,
+                        "posCnum": 456
+                    },
+                    "locGhost": false
+                }
+            }]
+        ]
+    },
+    "pstrLoc": {
+        "tag": "Location",
+        "locStart": {
+            "tag": "Position",
+            "posFname": "sample_rescript.res",
+            "posLnum": 25,
+            "posBol": 456,
+            "posCnum": 456
+        },
+        "locEnd": {
+            "tag": "Position",
+            "posFname": "sample_rescript.res",
+            "posLnum": 25,
+            "posBol": 456,
+            "posCnum": 456
+        },
+        "locGhost": false
+    }
+}]

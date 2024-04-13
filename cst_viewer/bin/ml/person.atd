@@ -1,0 +1,16 @@
+type person = {
+  name : nestedName;
+  age : int;
+  }
+
+type nestedName = {
+    firstName : string;
+    lastName : string;
+  }
+
+type constant = [
+      Pconst_integer of (string * string option)
+    | Pconst_char of int
+    | Pconst_string of (string * string option)
+    | Pconst_float of (string * string option)
+] <ocaml repr="classic">

@@ -1,0 +1,22 @@
+(executable
+ (public_name cst_viewer)
+ (name main)
+ (libraries cst_viewer syntax)
+)
+
+(dirs syntax ml js_parser ext)
+
+(env
+ (dev
+  (env-vars
+   (CPPO_FLAGS -U=RELEASE)))
+ (release
+  (env-vars
+   (CPPO_FLAGS -D=RELEASE))
+  (ocamlopt_flags
+   (:standard -O3 -unbox-closures)))
+ (static
+  (env-vars
+   (CPPO_FLAGS -D=RELEASE))
+  (ocamlopt_flags
+   (:standard -O3 -unbox-closures))))
